@@ -1,0 +1,38 @@
+body{
+    background: #faedcd;
+    font-family: sans-serif;
+}
+
+.card{
+    width: 700px;
+    height: 400px;
+    background: #fb6f92;
+    margin: 150px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    padding: 50px;
+}
+
+.line{
+    width: 200px;
+    height: 2px;
+    background: #000;
+    margin: 30px 0;
+}
+
+.info a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.card-image img{
+    border-radius: 100%;
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+}
